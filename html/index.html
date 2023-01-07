@@ -1,0 +1,62 @@
+ <!DOCTYPE HTML>
+<html>
+  <head>
+    <title> Chat </title>
+    <meta name = "charset" charset = "utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <script src = "script.js"></script>
+    <script src= "socket.io/socket.io.js"></script>
+  </head>
+
+  <body onload = "onload()">
+	  		
+    <div id = "Main">
+	
+      <audio id = "Ding" src = "Ding.mp3"> </audio>
+      <h1 id = "Title"> Братский чат </h1>
+      <div id = "AccessPort">
+		  <div class="DFI">
+		  <img src="http://cdn.onlinewebfonts.com/svg/img_518655.png" class="IcoChat">
+		  </div>
+		 <label id = "NameLabel"><p class="NameChrift"> Имя:  </p></label>
+        <input id = "NameInput" type = "text">
+        <br><br>
+        <label id = "IDLabel"> Чат: </label>
+        <input id = "IDInput" value = "Room1" type = "text">
+		  <br>
+        <input id = "ConnectButton" class = "Button" type = "submit" value = "Connect" onclick = "Connect()">
+		  <br>
+      </div>
+		<div class="DivForMes">
+			<div class="DFCH">
+      <h2 id = "RoomID"> Чат комната : None </h2>
+			</div>
+      <div id = "Chat">
+		  <div class="FM">
+        <p id = "Message0" class = "Message"> - </p>
+		  </div>
+        <p id = "Message1" class = "Message"> - </p>
+        <p id = "Message2" class = "Message"> - </p>
+        <p id = "Message3" class = "Message"> - </p>
+        <p id = "Message4" class = "Message"> - </p>
+        <p id = "Message5" class = "Message"> - </p>
+        <p id = "Message6" class = "Message"> - </p>
+        <p id = "Message7" class = "Message"> - </p>
+        <p id = "Message8" class = "Message"> - </p>
+        <p id = "Message9" class = "Message"> - </p>
+	  </div>
+			<div class="ObvForMes">
+			  <table>
+				  <tr>
+
+        <td><input id = "ComposedMessage" type = "text" placeholder="Сообщение: "></td>
+					<td><input id = "SendMessage" onclick="Send()" value = "Отправить" class = "Button"  type = "submit" src=""></td> 
+				</tr>
+			  </table>
+			</div>
+      </div>
+      <br><br>
+    </div>
+  </body>
+</html>

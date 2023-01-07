@@ -1,0 +1,9 @@
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file node_modules/.bin/acorn","time":"2023-01-07T19:49:53Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file node_modules/.bin/babylon","time":"2023-01-07T19:49:53Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file node_modules/.bin/handlebars","time":"2023-01-07T19:49:53Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file node_modules/.bin/html","time":"2023-01-07T19:49:53Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file node_modules/.bin/mime","time":"2023-01-07T19:49:53Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file node_modules/.bin/uglifyjs","time":"2023-01-07T19:49:53Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file node_modules/acorn-globals/node_modules/.bin/acorn","time":"2023-01-07T19:49:53Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file node_modules/is-expression/node_modules/.bin/acorn","time":"2023-01-07T19:49:55Z"}
+{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file node_modules/pug-filters/node_modules/.bin/uglifyjs","time":"2023-01-07T19:49:56Z"}

@@ -1,0 +1,166 @@
+body{
+  background: #f5f5f5;
+  color: #white;
+  font-family: 'Segoe UI';
+	background-image:url(https://kartinkin.net/uploads/posts/2022-01/1643332588_16-kartinkin-net-p-patterni-artemiya-lebedeva-krasivie-17.jpg);
+}
+
+label{
+  width: 5%;
+  display: inline-block;
+  text-align: right;
+}
+
+input{
+  background: white;
+  color: #303030;
+  font-size: 120%;
+  border: none;
+	text-align:center;
+}
+
+.Message{
+	color:white;
+}
+
+#Main{
+  background: #0825;
+  border-radius: 10%;
+  padding-left: 10%;
+	padding-right:10%;
+	border-style:solid;
+}
+
+#Title{
+  font-size: 300%;
+	text-align:center;
+	border-style:solid;
+	border-radius:30px;
+	background:white;
+}
+#IDLevel{text-align:center}
+h2{
+	text-align:center;
+}
+input{
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 10px 10px 10px 10px;
+	font-family:"FANTASY";
+	src:url("font/impact");
+}
+
+#Message0{
+	font-size:25px;
+	font-family: fantasy;
+}
+#Message1 {
+	font-size:25px;
+	font-family: fantasy;
+}
+.Message{
+	font-family:fantasy;
+	font-size:25px;
+}
+#MessageLabel{
+
+}
+#ComposedMessage{
+	display: block;
+	background: white;
+	padding: 10px;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	background:#c5e8e8;
+}
+
+#SendMessage{
+	padding:10px;
+	margin-right:auto;
+border-style:solid black;
+	background-color: #0d5f7d;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+	padding: 0.25em 0.75em;
+  min-width: 10ch;
+  min-height: 44px;
+}
+#NameInput{
+	display:block;
+	color:black;
+	margin:auto;
+	font-family:"FANTASY";
+	src:url("font/impact");
+}
+#NameLabel{
+	display:block;
+	margin-bottom:auto;
+	padding:10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#IDLabel{
+	border-style:solid;
+	border-radius:30px;
+	width:40px;
+	height:30px;
+	background:white;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#IDInput{
+	margin:auto;
+	display:block;
+}
+#ConnectButton{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	pdding:10px;
+}
+.DivForMes{
+	background:white;
+	border-radius:2%;
+width: 100%; 
+margin: 0 auto;
+border: 10px solid transparent;
+border-image: linear-gradient(to right, transparent 0%, #ADF2F7 100%);
+border-image-slice: 1;
+	background-image:url(https://illustrators.ru/uploads/album_image/image/21942/Telegram.png);
+}
+.ObvForMes{
+background:#00BFFF;
+	border-style:solid;
+	padding: 10px; /* Поля вокруг текста */
+    border-radius: 20px;
+}
+.DFCH{
+	background:#23282b;
+	width:40%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:30%;
+	color:	#DCDCDC;
+	border-style:solid;
+}
+.IcoChat{
+	margin-left:auto;
+	margin-top:auto;
+    width: 54px; 
+    height: 54px; 
+    font-size: 27px;
+}
+#Chat{
+	color:#2cddd1;
+}
+.NameChrift{
+	border-style:solid;
+	border-radius:30px;
+	width:40px;
+	height:30px;
+	background:white;
+}
