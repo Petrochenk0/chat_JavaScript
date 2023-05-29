@@ -1,1 +1,1 @@
-# chat_JavaScript
+# Чат написанный на JavaScript
